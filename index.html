@@ -1,0 +1,768 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniqueWare | Eksklyuziv Dasturxon va Uy Jihozlari Do'koni</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" href="./images/shopping-basket.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Top Announcement Bar -->
+    <div class="announcement-bar">
+      <div class="container announcement-content">
+        <p>
+          <i class="fa-solid fa-gift"></i> Birinchi xarid uchun
+          <strong>UNIQUE10</strong> promokodi orqali
+          <strong>10% chegirma</strong> oling!
+        </p>
+        <div class="top-contact">
+          <span><i class="fa-solid fa-phone"></i> +998 (71) 200-45-67</span>
+          <span
+            ><i class="fa-solid fa-truck-fast"></i> O'zbekiston bo'ylab tezkor
+            yetkazib berish</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container nav-container">
+        <div class="logo-area">
+          <button class="mobile-toggle" id="mobileToggle" aria-label="Menyu">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <a href="#home" class="logo">Unique<span>Ware</span></a>
+        </div>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#home" class="active">Bosh sahifa</a>
+          <a href="#products">Katalog</a>
+          <a href="#features">Afzalliklar</a>
+          <a href="#about">Biz haqimizda</a>
+          <a href="#testimonials">Fikrlar</a>
+          <a href="#contact">Aloqa</a>
+        </nav>
+
+        <div class="nav-actions">
+          <div class="search-box">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Mahsulot qidirish..."
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <button class="icon-btn" id="wishlistBtn" title="Sevimlilar">
+            <i class="fa-regular fa-heart"></i>
+            <span class="badge" id="wishlistCount">0</span>
+          </button>
+
+          <button class="icon-btn cart-btn" id="cartBtn" title="Savat">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="badge" id="cartCount">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <span class="hero-badge"
+          ><i class="fa-solid fa-sparkles"></i> 2026 Yangi Premium
+          Kolleksiya</span
+        >
+        <h1>Noyob va Betakror Dasturxon Madaniyati</h1>
+        <p>
+          Oshxonangiz va xonadoningiz uchun qo'lda tayyorlangan, nafis estetika
+          va asrlar an'anasini jamlagan eksklyuziv dasturxon jihozlari.
+        </p>
+        <div class="hero-buttons">
+          <a href="#products" class="btn primary-btn"
+            ><i class="fa-solid fa-compass"></i> Katalogni ko'rish</a
+          >
+          <a href="#about" class="btn secondary-btn"
+            ><i class="fa-solid fa-circle-play"></i> Biz haqimizda</a
+          >
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h4>5,000+</h4>
+            <p>Mamnun xaridorlar</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <h4>100%</h4>
+            <p>Qo'l mehnati & Sifat</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <h4>24-48s</h4>
+            <p>Tezkor yetkazish</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-truck-moving"></i>
+            </div>
+            <div class="feature-text">
+              <h3>O'zbekiston bo'ylab yetkazish</h3>
+              <p>
+                Barcha viloyat va shaharlarga xavfsiz qadoqlangan holda yetkazib
+                beramiz.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+            <div class="feature-text">
+              <h3>100% Eksklyuzivlik</h3>
+              <p>
+                Har bir buyum mohir ustalar tomonidan cheklangan nusxada
+                tayyorlanadi.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="feature-text">
+              <h3>Sifat Kafolati</h3>
+              <p>
+                Ekologik toza xomashyo va xalqaro oziq-ovqat xavfsizligi
+                standartlari.
+              </p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <div class="feature-text">
+              <h3>Mijozlarga 24/7 xizmat</h3>
+              <p>
+                Buyurtma va maslahat uchun istalgan vaqtda yordam berishga
+                tayyormiz.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products container" id="products">
+      <div class="section-header">
+        <span class="sub-heading">Bizning Kolleksiya</span>
+        <h2>Eksklyuziv Mahsulotlarimiz</h2>
+        <p>O'z xonadoningizga mos nafis va betakror jihozlarni tanlang</p>
+      </div>
+
+      <!-- Filter & Sort Controls -->
+      <div class="controls-wrapper">
+        <div class="category-tabs" id="categoryTabs">
+          <button class="tab-btn active" data-category="all">Barchasi</button>
+          <button class="tab-btn" data-category="ceramics">
+            Keramika & Idishlar
+          </button>
+          <button class="tab-btn" data-category="glass">
+            Kristall & Bokallar
+          </button>
+          <button class="tab-btn" data-category="cutlery">
+            Oshxona Jihozlari
+          </button>
+          <button class="tab-btn" data-category="sets">
+            To'plamlar & Podnoslar
+          </button>
+        </div>
+
+        <div class="filter-actions">
+          <div class="sort-box">
+            <label for="sortSelect"
+              ><i class="fa-solid fa-arrow-down-short-wide"></i>
+              Saralash:</label
+            >
+            <select id="sortSelect">
+              <option value="default">Tavsiya etilgan</option>
+              <option value="price-asc">Narx: Arzondan qimmatga</option>
+              <option value="price-desc">Narx: Qimmatdan arzonga</option>
+              <option value="rating">Reyting bo'yicha</option>
+              <option value="name">Nomi bo'yicha (A-Z)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="product-grid" id="productGrid">
+        <!-- Products will be loaded via JS -->
+      </div>
+
+      <div class="empty-state" id="emptyState" style="display: none">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <h3>Hech qanday mahsulot topilmadi</h3>
+        <p>
+          Qidiruv so'zini o'zgartirib ko'ring yoki barcha mahsulotlar toifasiga
+          o'ting.
+        </p>
+        <button class="btn primary-btn" id="resetFilterBtn">
+          Barcha mahsulotlarni ko'rsatish
+        </button>
+      </div>
+    </section>
+
+    <!-- Banner Promo Section -->
+    <section class="promo-banner">
+      <div class="container promo-banner-content">
+        <div class="promo-badge">Maxsus Taklif</div>
+        <h2>Dasturxoningizni haqiqiy san'at asariga aylantiring</h2>
+        <p>
+          150,000 so'mdan yuqori har qanday buyurtma uchun yetkazib berish
+          xizmati mutlaqo <strong>bepul</strong>!
+        </p>
+        <a href="#products" class="btn primary-btn">Hoziroq xarid qilish</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container about-wrapper">
+        <div class="about-image-col">
+          <div class="image-box">
+            <img
+              src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&q=80&w=800"
+              alt="UniqueWare ustaxonasi"
+            />
+            <div class="experience-card">
+              <span class="exp-number">8+</span>
+              <span class="exp-text">Yillik mukammal tajriba</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-col">
+          <span class="sub-heading">Biz haqimizda</span>
+          <h2>Har bir buyumda mehr va qo'l mehnati mujassam</h2>
+          <p>
+            <strong>UniqueWare</strong> — bu shunchaki idish-tovoqlar do'koni
+            emas, balki qadriyatlar va nozik did uyg'unligidir. Biz 2018-yildan
+            beri xonadonlar uchun eng sifatli, estetik va uzoq xizmat qiluvchi
+            dasturxon jihozlarini yaratib kelmoqdamiz.
+          </p>
+          <p>
+            Bizning keramika va kristall mahsulotlarimiz o'ziga xos dizaynga ega
+            bo'lib, ular dasturxoningizga o'zgacha fayz va mehmondo'stlik
+            kayfiyatini bag'ishlaydi.
+          </p>
+
+          <div class="about-points">
+            <div class="point-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Ekologik xavfsiz tabiiy gil va shisha</span>
+            </div>
+            <div class="point-item">
+              <i class="fa-solid fa-check"></i>
+              <span>O'ziga xos mualliflik dizaynlari</span>
+            </div>
+            <div class="point-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Idish yuvish mashinasiga mos chidamlilik</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn primary-btn">Biz bilan bog'lanish</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="sub-heading">Mijozlar fikrlari</span>
+          <h2>Xaridorlarimiz nima deydi?</h2>
+          <p>
+            Bizning mahsulotlarimizni tanlagan minglab mamnun insonlar bahosi
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              "Keramika to'plamini buyurtma qildim. Sifati kutilganidan ham a'lo
+              darajada! Qadoqlanishi juda ehtiyotkorona qilingan, bitta ham
+              shikastsiz yetib keldi."
+            </p>
+            <div class="client-info">
+              <img
+                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150"
+                alt="Mijoz surati"
+              />
+              <div>
+                <h4>Ziyoda Rahimova</h4>
+                <span>Toshkent shahri</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              "Kristall bokallar to'plamini to'y sovg'asi uchun olgan edim.
+              Qabul qiluvchilar juda xursand bo'lishdi, haqiqiy aristokratik
+              ko'rinishga ega!"
+            </p>
+            <div class="client-info">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+                alt="Mijoz surati"
+              />
+              <div>
+                <h4>Davronbek Aliyev</h4>
+                <span>Samarqand</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              "Bronza pichoq-vilkalar to'plami dasturxonimizning eng asosiy
+              bezagiga aylandi. Saytdan buyurtma berish juda qulay va
+              operatorlar samimiy."
+            </p>
+            <div class="client-info">
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=150"
+                alt="Mijoz surati"
+              />
+              <div>
+                <h4>Malika Umarova</h4>
+                <span>Buxoro</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & FAQ Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="sub-heading">Biz bilan aloqa</span>
+          <h2>Savollaringiz bormi?</h2>
+          <p>
+            Biz bilan bog'laning, mutaxassislarimiz barcha savollaringizga
+            mamnuniyat bilan javob beradi
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <h4>Manzilimiz:</h4>
+                <p>Toshkent shahri, Amir Temur shoh ko'chasi, 45-uy</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <h4>Telefon raqamlarimiz:</h4>
+                <p>+998 (71) 200-45-67<br />+998 (90) 123-45-67</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <h4>Elektron pochta:</h4>
+                <p>info@uniqueware.uz<br />support@uniqueware.uz</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="c-icon"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <h4>Ish tartibi:</h4>
+                <p>
+                  Dushanba - Shanba: 09:00 - 20:00<br />Yakshanba: 10:00 - 18:00
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-box">
+            <form id="contactForm">
+              <h3>Xabar yuborish</h3>
+              <div class="form-group">
+                <label for="cName">Ismingiz *</label>
+                <input
+                  type="text"
+                  id="cName"
+                  placeholder="Ismingizni kiriting"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="cPhone">Telefon raqamingiz *</label>
+                <input
+                  type="tel"
+                  id="cPhone"
+                  placeholder="+998 (90) 123-45-67"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="cMessage">Xabaringiz *</label>
+                <textarea
+                  id="cMessage"
+                  rows="4"
+                  placeholder="Savolingiz yoki taklifingizni yozing..."
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn primary-btn submit-btn">
+                <i class="fa-regular fa-paper-plane"></i> Yuborish
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cart Drawer -->
+    <div class="cart-drawer" id="cartDrawer">
+      <div class="cart-header">
+        <h3><i class="fa-solid fa-bag-shopping"></i> Savatchangiz</h3>
+        <button class="close-btn" id="closeCart" aria-label="Yopish">
+          &times;
+        </button>
+      </div>
+
+      <div class="cart-items" id="cartItems">
+        <!-- Cart items will appear here -->
+      </div>
+
+      <div class="cart-footer">
+        <div class="promo-code-box">
+          <input
+            type="text"
+            id="promoInput"
+            placeholder="Promokod (UNIQUE10)"
+          />
+          <button id="applyPromoBtn">Qo'llash</button>
+        </div>
+        <div id="promoMessage" class="promo-message"></div>
+
+        <div class="cart-summary-line">
+          <span>Oraliq jami:</span>
+          <span id="cartSubtotal">$0.00</span>
+        </div>
+        <div
+          class="cart-summary-line discount-line"
+          id="discountLine"
+          style="display: none"
+        >
+          <span>Chegirma (10%):</span>
+          <span id="cartDiscount">-$0.00</span>
+        </div>
+        <div class="cart-summary-line">
+          <span>Yetkazib berish:</span>
+          <span class="free-text">Bepul</span>
+        </div>
+        <div class="total">
+          <span>Umumiy to'lov:</span>
+          <span id="cartTotal">$0.00</span>
+        </div>
+
+        <button class="checkout-btn" id="checkoutBtn">
+          <i class="fa-solid fa-lock"></i> Buyurtmani rasmiylashtirish
+        </button>
+        <button class="clear-cart-btn" id="clearCartBtn">
+          Savatni tozalash
+        </button>
+      </div>
+    </div>
+
+    <!-- Wishlist Modal -->
+    <div class="wishlist-modal" id="wishlistModal">
+      <div class="wishlist-content">
+        <div class="modal-header">
+          <h3>
+            <i class="fa-solid fa-heart" style="color: #e74c3c"></i> Sevimlilar
+            ro'yxati
+          </h3>
+          <button class="close-btn" id="closeWishlist">&times;</button>
+        </div>
+        <div class="wishlist-items" id="wishlistItems">
+          <!-- Wishlist items will be rendered here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick View Product Modal -->
+    <div class="quickview-modal" id="quickViewModal">
+      <div class="quickview-content">
+        <button class="close-btn" id="closeQuickView">&times;</button>
+        <div class="quickview-body" id="quickViewBody">
+          <!-- Dynamically loaded product details -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="checkout-modal" id="checkoutModal">
+      <div class="checkout-modal-content">
+        <div class="modal-header">
+          <h3><i class="fa-solid fa-credit-card"></i> Buyurtmani Tasdiqlash</h3>
+          <button class="close-btn" id="closeCheckout">&times;</button>
+        </div>
+        <form id="checkoutForm" class="checkout-form">
+          <div class="order-summary-box">
+            <h4>Buyurtma xulosasi:</h4>
+            <p id="checkoutSummaryText">Jami: 0 ta mahsulot - $0.00</p>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="custName">To'liq ismingiz *</label>
+              <input
+                type="text"
+                id="custName"
+                placeholder="Masalan: Sardor Komilov"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="custPhone">Telefon raqamingiz *</label>
+              <input
+                type="tel"
+                id="custPhone"
+                placeholder="+998 (90) 123-45-67"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="custCity">Shahar / Viloyat *</label>
+            <select id="custCity" required>
+              <option value="">Tanlang...</option>
+              <option value="Toshkent">Toshkent shahri</option>
+              <option value="Toshkent vil.">Toshkent viloyati</option>
+              <option value="Samarqand">Samarqand</option>
+              <option value="Buxoro">Buxoro</option>
+              <option value="Andijon">Andijon</option>
+              <option value="Farg'ona">Farg'ona</option>
+              <option value="Namangan">Namangan</option>
+              <option value="Qashqadaryo">Qashqadaryo</option>
+              <option value="Surxondaryo">Surxondaryo</option>
+              <option value="Xorazm">Xorazm</option>
+              <option value="Navoiy">Navoiy</option>
+              <option value="Jizzax">Jizzax</option>
+              <option value="Sirdaryo">Sirdaryo</option>
+              <option value="Qoraqalpog'iston">
+                Qoraqalpog'iston Respublikasi
+              </option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="custAddress">Yetkazib berish manzili *</label>
+            <input
+              type="text"
+              id="custAddress"
+              placeholder="Tuman, ko'cha, uy raqami"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label>To'lov usuli:</label>
+            <div class="payment-options">
+              <label class="pay-option">
+                <input
+                  type="radio"
+                  name="paymentMethod"
+                  value="Naqd / Kuryerga"
+                  checked
+                />
+                <span
+                  ><i class="fa-solid fa-money-bill-wave"></i> Qabul qilganda
+                  naqd</span
+                >
+              </label>
+              <label class="pay-option">
+                <input type="radio" name="paymentMethod" value="Click" />
+                <span
+                  ><i class="fa-solid fa-mobile-screen-button"></i> Click</span
+                >
+              </label>
+              <label class="pay-option">
+                <input type="radio" name="paymentMethod" value="Payme" />
+                <span><i class="fa-solid fa-wallet"></i> Payme</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="custNotes">Qo'shimcha izoh (ixtiyoriy)</label>
+            <textarea
+              id="custNotes"
+              rows="2"
+              placeholder="Masalan: Domofon kodi yoki yetkazish vaqti"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn primary-btn submit-order-btn">
+            <i class="fa-solid fa-check"></i> Buyurtmani tasdiqlash
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Order Success Modal -->
+    <div class="success-modal" id="successModal">
+      <div class="success-content">
+        <div class="success-icon"><i class="fa-solid fa-circle-check"></i></div>
+        <h2>Buyurtmangiz muvaffaqiyatli qabul qilindi!</h2>
+        <p>Buyurtma raqami: <strong id="orderNumber">#UW-89421</strong></p>
+        <p class="success-desc">
+          Tez orada operatorimiz siz bilan bog'lanib, buyurtma tafsilotlarini va
+          yetkazish vaqtini tasdiqlaydi.
+        </p>
+        <button class="btn primary-btn" id="successCloseBtn">
+          Tushundim, xaridni davom ettirish
+        </button>
+      </div>
+    </div>
+
+    <!-- Dark Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Toast Notification Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-col brand-col">
+          <a href="#home" class="logo footer-logo">Unique<span>Ware</span></a>
+          <p>
+            Har bir xonadon uchun o'ziga xos, betakror va nafis dasturxon hamda
+            oshxona buyumlari.
+          </p>
+          <div class="social-links">
+            <a href="https://t.me" target="_blank" aria-label="Telegram"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://youtube.com" target="_blank" aria-label="YouTube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Tezkor havolalar</h4>
+          <a href="#home">Bosh sahifa</a>
+          <a href="#products">Mahsulotlar katalogi</a>
+          <a href="#features">Bizning afzalliklar</a>
+          <a href="#about">Biz haqimizda</a>
+          <a href="#testimonials">Mijozlar fikrlari</a>
+          <a href="#contact">Aloqa</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Katalog toifalari</h4>
+          <a href="#products" onclick="filterByCategory('ceramics')"
+            >Keramika & Idishlar</a
+          >
+          <a href="#products" onclick="filterByCategory('glass')"
+            >Kristall & Bokallar</a
+          >
+          <a href="#products" onclick="filterByCategory('cutlery')"
+            >Oshxona Jihozlari</a
+          >
+          <a href="#products" onclick="filterByCategory('sets')"
+            >To'plamlar & Podnoslar</a
+          >
+        </div>
+
+        <div class="footer-col">
+          <h4>Bog'lanish</h4>
+          <p>
+            <i class="fa-solid fa-location-dot"></i> Toshkent sh., A. Temur 45
+          </p>
+          <p><i class="fa-solid fa-phone"></i> +998 (71) 200-45-67</p>
+          <p><i class="fa-solid fa-envelope"></i> info@uniqueware.uz</p>
+          <div class="payment-badges">
+            <span class="pay-badge">Payme</span>
+            <span class="pay-badge">Click</span>
+            <span class="pay-badge">Uzum</span>
+            <span class="pay-badge">Naqd</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <p>&copy; 2026 UniqueWare. Barcha huquqlar himoyalangan.</p>
+          <p>Nafislik va sifat timsoli.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop" title="Yuqoriga">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
